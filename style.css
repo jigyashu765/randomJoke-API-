@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+    font-family: cursive;
+}
+
+h1{
+    margin: 10px auto;
+    padding: 5px auto;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+h1 span{
+    color: red;
+}
+
+.joke-box{
+    text-align: center;
+    padding: 10px;
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    translate: -50% -40%;
+    top: 40%;
+    left: 50%;
+    background-color: #111111;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 25, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+}
+
+.joke-emoji{
+    font-size: 50px;
+    text-align: center;
+}
+
+.joke-text{
+    color: aliceblue;
+    margin: 15px;
+}
+
+
+button{
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 80%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2), 0 3px 8px 0 rgba(255, 255, 255, 0.15);
+}
